@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-green: #0c8d0c;
+  --color-red: #cb0b0b;
+  --color-white: #f4f4f4;
+  --bg-color-blue: linear-gradient(109.6deg,rgba(62, 161, 219, 1) 11.2%,rgba(93, 52, 236, 1) 100.2%);
+  --box-shadow-dark: rgba(10, 13, 51, 0.5);
+  --border-radius: 8px;
+  --fz-lg: 18px;
+  --fz-md: 16px;
+  --fz-sm: 14px;
+  --fz-xs: 12px;
+}
+
+html {
+  width: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: var(--fz-md);
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  background-color: aqua;
+  -webkit-font-smoothing: antialiased;
+}
