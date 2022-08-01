@@ -67,6 +67,9 @@ body {
 
 .add {
   width: 100%;
+}
+
+.add__form {
   padding: .625rem 0;
   display: flex;
   justify-content: space-between;
