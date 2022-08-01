@@ -63,3 +63,28 @@ body {
   font-size: 2rem;
   padding-bottom: .625rem;
 }
+
+.add {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add__input {
+  flex-grow: 2;
+  margin-right: 50px;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: .3125rem;
+}
+
+.add__button {
+  padding: .5rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  border-radius: var(--border-radius);
+  border: none;
+  background: var(--bg-color-blue);
+  color: var(--color-white);
+}
