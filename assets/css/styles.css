@@ -105,11 +105,17 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.container__list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   padding: 1.25rem .625rem;
   overflow-y: scroll;
 }
 
-.task {
+.container__task {
   margin-bottom: .75rem;
   padding: 15px;
   font-size: 1.1rem;

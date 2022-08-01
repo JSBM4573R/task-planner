@@ -24,7 +24,7 @@
       </div>
       <div class="add">
         <form class="add__form" action="">
-          <input class="add__input" type="text" placeholder="Nombre la Tarea">
+          <input class="add__input" type="text" placeholder="Nombre la Tarea" data-form-input>
           <button type="submit" class="add__button" data-form-btn>
             Agregar
             <i class="fas fa-plus-circle"></i>
@@ -32,13 +32,15 @@
         </form>
       </div>
       <div class="container">
-        <div class="task">
-          <i class="fas fa-check-circle task__check--icon"></i>
-          <div class="task__description">
-            Realizar actividad Física
-          </div>
-          <i class="fas fa-trash task__trash--icon"></i>
-        </div>
+        <ul class="container__list" data-list>
+          <li class="container__task" data-task>
+            <i class="fas fa-check-circle task__check--icon"></i>
+            <div class="task__description">
+              Seguir agregando mas tareas :3
+            </div>
+            <i class="fas fa-trash task__trash--icon"></i>
+          </li>
+        </ul>
       </div>
     </div>
   </main>
