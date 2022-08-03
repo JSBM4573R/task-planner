@@ -137,7 +137,11 @@ body {
   cursor: pointer;
 }
 
-.task__check--icon:active {
+.task__check--icon:hover {
+  color: var(--color-green);
+}
+
+.checkTask {
   color: var(--color-green);
 }
 
