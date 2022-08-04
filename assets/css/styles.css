@@ -81,7 +81,7 @@ body {
 .add__input {
   flex-grow: 2;
   margin-right: 50px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: none;
   border-radius: var(--border-radius-small);
   padding: .75rem;
@@ -89,7 +89,7 @@ body {
 
 .add__button {
   padding: .5rem;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 400;
   cursor: pointer;
   border-radius: var(--border-radius-small);
@@ -121,7 +121,7 @@ body {
 .container__task {
   margin-bottom: .75rem;
   padding: 15px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
