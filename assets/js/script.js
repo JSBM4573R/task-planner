@@ -21,25 +21,13 @@ btn.addEventListener("click", (e) => {
     `;
     task.innerHTML = content;
     list.appendChild(task)
+    
   }
+  
 });
 
 const check = document.querySelectorAll(".task__check--icon");
-// check.addEventListener("click", () => {
-//   console.log(check)
-//   check.classList.toggle("checkTask");
-// });
-check.forEach(e => e.addEventListener("click", function() {
-  
-  // if (!e.classList.contains("checkTask")) {
-  //   e.classList.add("checkTask")
-  // } else {
-  //   e.classList.remove("checkTask")
-  // }
-  // for (let i = 0; i < array.length; i++) {
-  //   const element = array[i];
-    
-  // }
+check.forEach(e => e.addEventListener("click", () => {
   e.classList.toggle("checkTask");
+  // e.classList.toggle("checkTask");
 }));
-

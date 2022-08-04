@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 *,
@@ -36,6 +38,7 @@ body {
   min-height: 100vh;
   background: var(--bg-color-blue);
   -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main {
@@ -49,7 +52,7 @@ body {
   margin: auto;
   height: 100%;
   padding: 1.25rem;
-  width: 650px;
+  width: 600px;
   background-color: var(--color-white);
   border-radius: var(--border-radius-big);
   display: flex;
