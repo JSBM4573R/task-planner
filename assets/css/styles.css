@@ -16,6 +16,7 @@
   --color-green: #0c8d0c;
   --color-red: #cb0b0b;
   --color-white: #f4f4f4;
+  --color-gray: #3a3a3a;
   --bg-color-blue: linear-gradient(109.6deg,rgba(62, 161, 219, 1) 11.2%,rgba(93, 52, 236, 1) 100.2%);
   --box-shadow: 0 5px 15px rgba(110, 112, 138, 0.5);
   --border-radius-big: 20px;
@@ -61,11 +62,14 @@ body {
 }
 
 .header {
+  margin-bottom: .9375rem;
   width: 100%;
   text-align: center;
   font-weight: bold;
   font-size: 2.5rem;
   padding-bottom: .625rem;
+  color: var(--color-gray);
+  border-bottom: 2px solid #b6b6b6;
 }
 
 .add {
