@@ -77,9 +77,10 @@ body {
 }
 
 .add__form {
-  padding: .625rem 0;
+  padding-bottom: 15px;
   display: flex;
   justify-content: space-between;
+  border-bottom: 2px solid #b6b6b6;
 }
 
 .add__input {
