@@ -59,6 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 3px 0px 50px #414141;
 }
 
 .header {
